@@ -138,7 +138,3 @@ JOIN race_plaers AS rp ON r.race = rp.race
 JOIN count_players AS cp ON rp.race = cp.race
 JOIN avg_cost_amount AS asa ON cp.race = asa.race;
 
-
-
--- Задача 2: Частота покупок
--- Напишите ваш запрос здесь
